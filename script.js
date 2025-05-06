@@ -37,6 +37,8 @@
 //less than equals to
 // console.log(d <= e);
 
+
+
 // Logical operator
 // THEY ALL RETURN A BULLEAN VALUE 
 // logical OR ||
@@ -96,11 +98,21 @@
 // console.log(tenTest);
 
 // CONDITIONALS
+
 // if Statement
 // if else Statement
 // if else if Statement
 
-// if () {}
+// if () {} 
+
+//if(){}else{}
+// let joy = 20;
+// let mary = 40;
+// if(joy > mary){
+//     console.log("joy is higher")
+// } else{
+//     console.log("mary is greater")
+// }
 
 // let a = 78;
 // let b = 56;
@@ -154,13 +166,46 @@
 
 // write a programe that checks if a number is even or odd
 
-const myNum = parseInt(prompt("enter any number"));
-if(myNum % 2 === 0){
-    alert(`${myNum} this is an even number`)
-} else{
-    alert(`${myNum} this is an odd number`)
-};
+// const myNum = parseInt(prompt("enter any number"));
+// if(myNum % 2 === 0){
+//     alert(`${myNum} this is an even number`)
+// } else{
+//     alert(`${myNum} this is an odd number`)
+// // };
 
+// let name = "joy";
+// prompt("what is your name")
+// console.log(name);
+
+// const userNumber = parseInt(prompt("enter a name"));
+
+// if (userNumber > 0 ) {
+//     alert(`${userNumber} is a positive number`);
+// } else if (userName === 0) {
+//     alert(`${userNumber} is invalid`);
+// } else if (isNaN())
+
+// write a program
+// const num1= parseInt(prompt("enter a number"))
+// const num2= parseInt(prompt("enter a number"))
+// if (num1 > num2) {
+//     alert(`${num1} it is greater`);
+// } else {
+//     alert(`${num2} it is greater`);
+// }
+
+// let score=parseInt(prompt("display grade"))
+// if(score>=90) {alert("A grade");}
+// else if(score>=69) {
+//     alert("B grade");}
+// else if(score>=59) {
+//     alert("C grade");}
+// else if(score>=49){
+//     alert("D grade");}
+// else if(score>=44){
+//     alert("E grade")}
+// else{
+//     alert("F grade");}
 
 
 
