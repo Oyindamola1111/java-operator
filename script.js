@@ -5,6 +5,8 @@
 // c=a+b;
 // console.log(a,b,c);
 
+// const { log } = require("node:console");
+
 // const { StatementSync } = require("node:sqlite");
 
 // let person="hege";
@@ -206,6 +208,186 @@
 //     alert("E grade")}
 // else{
 //     alert("F grade");}
+
+// PROPERTIES AND METHODS
+
+// let colorBox = ["red","yellow","blue","black"]
+// console.log(colorBox.length);
+// let nameBox1 = ["yellow","blue","red","white","orange"]
+
+// 'orange'
+// nameBox[nameBox.length -1]
+// 'orange'
+// let score = [3,2,1,4,5,6,8,9]
+// undefined
+// score[4]
+// 5
+// score[score.length -4]
+// 5
+// score.splice[0,2]
+
+// score.push("joanna")
+// 9
+// score
+// (9) [3, 2, 1, 4, 5, 6, 8, 9, 'joanna']
+// score.push("ope")
+// 10
+// score
+// (10) [3, 2, 1, 4, 5, 6, 8, 9, 'joanna', 'ope']
+// score.pop()
+// 'ope'
+// score
+// (9) [3, 2, 1, 4, 5, 6, 8, 9, 'joanna']
+// score.shift()
+// 3
+// score
+// (8) [2, 1, 4, 5, 6, 8, 9, 'joanna']
+// score
+// (8) [2, 1, 4, 5, 6, 8, 9, 'joanna']
+// score.unshift()
+// 8
+// score
+// (8) [2, 1, 4, 5, 6, 8, 9, 'joanna']
+// score.include("david")
+
+// score.includes("david")
+// false
+// score.indexOf("4")
+// -1
+// let man = ["ife","tolu","seun","john","love"]
+// undefined
+// man.indexOf("tolu")
+// 1
+// man.indexOf("love")
+// 4
+// man[man.length -1]
+// 'love'
+// man.join()
+// 'ife,tolu,seun,john,love'
+// man.slice(0,1)
+// ['ife']
+// man
+// (5) ['ife', 'tolu', 'seun', 'john', 'love']
+// name.slice(2,4)
+// ''
+// man.slice(2,4)
+// (2) ['seun', 'john']
+// man.splice(0,2,"dammy")
+// (2) ['ife', 'tolu']
+// man
+// (4) ['dammy', 'seun', 'john', 'love']
+// man.splice(2,0,"ogo")
+
+// man
+// (5) ['dammy', 'seun', 'ogo', 'john', 'love']
+// man.splice(0,0,"victory")
+
+// man
+// (6) ['victory', 'dammy', 'seun', 'ogo', 'john', 'love']
+// man.splice(0,1)
+// ['victory']
+// man
+// (5) ['dammy', 'seun', 'ogo', 'john', 'love']
+// man.splice(2,0,"good")
+
+// man
+// (6) ['dammy', 'seun', 'good', 'ogo', 'john', 'love']
+
+
+
+// string methods
+
+// let myStr = "Hello, javascript World";
+// console.log(myStr);
+// console.log(myStr.toLowerCase());
+// console.log(myStr.toUpperCase());
+// console.log(myStr.charAt());
+// console.log(myStr.indexOf("javascript"));
+// console.log(myStr.includes("Hello"));
+// console.log(myStr.slice(2,8));
+// console.log(myStr.trim()); // takes off un-neccessary spaces in sentences
+// console.log(myStr.replace("World", "Universe")); // replace world and input universe
+// console.log(myStr.split());
+// console.log(myStr.split(" ")[1]);
+// console.log(myStr.startsWith("Hello"));
+// console.log(myStr.endsWith("hi"));
+
+// NUMBER METHODS
+
+// let num = 42.769;
+// console.log(num);
+// console.log(num.toString());
+// console.log(num.toFixed());
+
+
+
+// Math Method
+
+// console.log(Math.PI);
+// console.log(Math.round(41.945));
+// console.log(Math.floor(42.342));
+// console.log(Math.ceil(42.2));
+// console.log(Math.max(12,4,3,7));
+// console.log(Math.min(12,4,6,8));
+// console.log(Math.pow(23,70));
+// console.log(Math.sqrt(144));
+// console.log(Math.random()*100);
+// console.log(Math.floor(Math.random()*100));
+
+
+// OBJECTS
+
+// let student = {
+//     name: "shade",
+//     age: 34,
+//     mail: "shade@gmail.com"
+// };
+//  console.log(student);
+//  console.log(student.name);
+//  console.log(Object.keys(student));
+//  console.log(Object.values(student));
+
+// FUNCTIONS
+
+// function myName(name) {
+//     console.log(name);  
+// }
+// myName("damola");
+// myName("idiot");
+// myName("money");
+
+// function addNum(a, b) {
+//     console.log(a+b);
+    
+// }
+// addNum(30,8);
+
+
+
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
