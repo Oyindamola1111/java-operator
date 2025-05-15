@@ -362,6 +362,70 @@
 // }
 // addNum(30,8);
 
+// function greet() {
+//     console.log("hello world");   
+// }
+// greet()
+
+
+// FUNCTION DECLARATION
+
+// function num() {
+//     let InPutFromUser = parseInt(prompt("Take input from user"));
+//     if (InPutFromUser >= 6) {
+//       alert("it is greater");
+//     }else{
+//         alert("invalid")
+//     }    
+// }
+// num()
+
+// let dami = function subbtraction(num1,num2) {
+//     let result = num1-num2;
+//     console.log(result); 
+// }
+// dami(10,2);
+// subbtraction()
+
+// function theirName() {
+    // let name = prompt("enter your name")
+    // // let nickName = ["john","tunde","bolu","shade"];
+    // console.log('your name is', name.length );
+// }
+// theirName()
+
+// function theirName() {
+//     let a =parseInt( prompt("display number"));
+//     let b =parseInt( prompt("display number"));
+//     let c =parseInt( prompt("display number"));
+//     let d =parseInt( prompt("display number"));
+//     // let nickName = [12,3,5,8];
+//     console.log('highest number is', Math.max(a,b,c,d) );
+// }
+// theirName()
+
+// function highestNumber() {
+//     const myNum = parseInt(prompt("enter any number"));
+// if(myNum % 2 === 0){
+//     alert(`${myNum} this is an even number`);
+// } else{
+//     alert(`${myNum} this is an odd number`);
+// };
+// }
+// highestNumber()
+
+
+
+// ANOTHER WAY TO WRITE A FUNCTION IS ---- ARROW FUNCTIONS
+
+// let userLength = () => {
+// let name = prompt("enter your name")
+//     console.log('your name is', name.length );
+// }
+// userLength()
+
+// FUNCTION EXPRESSION
+
 
 
  
