@@ -7,6 +7,8 @@
 
 // const { log } = require("node:console");
 
+// const { log } = require("node:console");
+
 // const { StatementSync } = require("node:sqlite");
 
 // let person="hege";
@@ -255,8 +257,7 @@
 // score.indexOf("4")
 // -1
 // let man = ["ife","tolu","seun","john","love"]
-// undefined
-// man.indexOf("tolu")
+// console.log( man.indexOf("tolu"));
 // 1
 // man.indexOf("love")
 // 4
@@ -425,6 +426,56 @@
 // userLength()
 
 // FUNCTION EXPRESSION
+
+
+// LOOP
+
+
+// console.log(200);
+
+// write an arrow function that divides two numbers
+
+// let division = () => {
+//     let num1 = prompt ("enter number")
+//     let num2 = prompt ("enter number")
+//     console.log(num1 / num2);
+// }
+// division()
+
+
+
+// write a functions that checks if a number is even or odd
+
+// function number() {
+//     let num = parseInt(prompt("enter number"));
+//     if(num % 2 === 0){
+//       console.log(`${num} is an even number`);
+//     }
+//     else {
+//         console.log(`${num} is an odd number`);
+//     }
+// }
+// number()
+
+// function highest() {
+//     let num1 = prompt("enter first number");
+//     let num2 = prompt("enter second number");
+//     let num3 = prompt("enter third number");
+//     console.log(Math.max(num1,num2,num3));    
+// }
+//  highest()
+
+// A FUNCTION THAT REVERSE A STRING
+
+// function reverse() {
+//     back= prompt("enter a name")
+//     console.log(back.split('').reverse('').join(''));
+// }
+// reverse()
+
+
+
+
 
 
 
