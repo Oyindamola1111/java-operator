@@ -381,6 +381,8 @@
 // }
 // num()
 
+// FUNCTION EXPRESSION
+
 // let dami = function subbtraction(num1,num2) {
 //     let result = num1-num2;
 //     console.log(result); 
@@ -472,6 +474,41 @@
 //     console.log(back.split('').reverse('').join(''));
 // }
 // reverse()
+
+
+
+// FOR LOOPS
+// TO DO SOMETHING MULTIPLE TIMES
+
+
+// for (let i = 0; i < 11; i++) {
+//     console.log('this is the value of i',i);
+// }
+// console.log('we are learning loops');
+
+
+
+// for (let num = 5; num<= 20; num++) {
+//     console.log('this is the value of num',num); 
+// }
+
+
+// let score =[2,3,4,5,6,7,8,9,];
+// let num = 1
+//     for (let print = 0; print < 8; print++) {
+        // console.log('score =',score[print]);
+        // console.log(score[print]);
+    //     console.log(score[num]);
+    // }
+
+// for (let number = 0; number <= 20; number++) {
+//     if (number % 2 === 0) {
+//         console.log(`${number} is an even number`); 
+//     }else{
+//         console.log(`${number} is an odd number`);
+//     } 
+// }
+
 
 
 
