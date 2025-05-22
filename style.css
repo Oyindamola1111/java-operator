@@ -1,0 +1,30 @@
+
+.black{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+}
+.para{
+width: 320px;
+}
+.main-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#header{
+    text-transform: capitalize;
+}
+#btn{
+    background-color: pink;
+    color: greenyellow;
+    border: none;
+}
+#btn:hover{
+    color:white;
+    background-color:green;
+    border: 4px solid red;
+    border-radius: 20px;
+}

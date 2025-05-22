@@ -479,6 +479,7 @@
 
 // FOR LOOPS
 // TO DO SOMETHING MULTIPLE TIMES
+// 3 parts of loop = initializer, conditionals and increment or decrement
 
 
 // for (let i = 0; i < 11; i++) {
@@ -508,6 +509,29 @@
 //         console.log(`${number} is an odd number`);
 //     } 
 // }
+
+
+// for (let number = 1; number <= 5; number++) {
+//     console.log(number);
+// }
+
+// console.log(document.getElementsByClassName('para'));
+//  console.log(document.getElementById('header').innerText);
+//  console.log(document.getElementById('btn').innerHTML);
+ 
+// let student ={
+//     name: 'ronaldo',
+//     nationalty: 'portugal',
+//     status: 'goat'
+// }
+
+console.log(document.getElementsByClassName('ingi'));
+console.log(document.getElementsByClassName('ingi')[2].innerText);
+
+document.getElementsByClassName('ingi')[4].innerText = 'garri';
+
+
+
 
 
 
