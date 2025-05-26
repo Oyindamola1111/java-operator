@@ -525,17 +525,27 @@
 //     status: 'goat'
 // }
 
-console.log(document.getElementsByClassName('ingi'));
-console.log(document.getElementsByClassName('ingi')[2].innerText);
+// console.log(document.getElementsByClassName('ingi'));
+// console.log(document.getElementsByClassName('ingi')[2].innerText);
 
-document.getElementsByClassName('ingi')[4].innerText = 'garri';
+// document.getElementsByClassName('ingi')[4].innerText = 'garri';
 
+// let ingi = document.getElementById('ptp')
+// ptp.style.color="red"
+ 
 
-
-
-
-
-
+// function changeText() {
+//     document.getElementById('gpg').innerText="close"
+// }
+function changeText() {
+    let a=document.getElementsByClassName('omg')[0]
+    if (a.innerText === "open") {
+        a.innerText="close"
+    }else{
+        a.innerText="open"
+    }
+}
+document.getElementById("bal").addEventListener("click",opener)
 
 
 
