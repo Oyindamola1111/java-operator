@@ -9,7 +9,26 @@
 </head>
 <body>
 
-    <div class="main-body">
+    <div id="todo">
+        <div id="todo-function">
+         <div>
+               <input type="text" id="input-box">
+            <button onclick="addnewTask()">click here</button>
+         </div>
+         <div>
+            <h3>your task for today:</h3>
+            <p id="newText">i am the paragraph</p>
+            <ul id="tasklist">
+
+            </ul>
+         </div>
+
+         <div id="chat-box"></div>
+         <input type="text" id="text-message">
+         <button onclick="chatHistory()">send</button>
+        </div>
+    </div>
+    <!-- <div class="main-body">
         <div class="black"></div>
         <p class="para">
             lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -38,11 +57,11 @@
     </div>
 <div>
     <h1 class="omg">open</h1>
-<h1 id="gpg">open</h1>
-<button id="bal" >click me</button>
+
+<button id="bal" onclick="changeText()">click me</button>
 </div>
     
-    </div>
+    </div> -->
    
 
 </body>

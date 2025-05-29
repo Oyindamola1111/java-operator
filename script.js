@@ -537,17 +537,34 @@
 // function changeText() {
 //     document.getElementById('gpg').innerText="close"
 // }
-function changeText() {
-    let a=document.getElementsByClassName('omg')[0]
-    if (a.innerText === "open") {
-        a.innerText="close"
-    }else{
-        a.innerText="open"
-    }
-}
-document.getElementById("bal").addEventListener("click",opener)
+// function changeText() {
+//     let a=document.getElementsByClassName('omg')[0]
+//     if (a.innerText === "open") {
+//         a.innerText="close"
+//     }else{
+//         a.innerText="open"
+//     }
+// }
+// document.getElementById("bal").addEventListener("click",opener)
+
+// function addnewTask() {
+//     let inputBox = document.getElementById("input-box")
+//     // console.log(inputBox.value);
+//     // document.getElementById("newText").textContent = input-box.value;
+//     let newElement = document.createElement('li');
+//     newElement.textContent = inputBox.value;
+//     document.getElementById('tasklist').appendChild(newElement);
+// }
+
+// function chatHistory() {
+//     let userinput = document.getElementById('text-message')
+//     let newchat = document.createElement('p');
+//     newchat.textContent=userinput.value;
+//     document.getElementById('chat-box').appendChild(newchat);
+// }
 
 
+// using javascript to add class name to htlm and css
 
 
  
