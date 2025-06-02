@@ -5,6 +5,8 @@
 // c=a+b;
 // console.log(a,b,c);
 
+const { callbackify } = require("util");
+
 // const { log } = require("node:console");
 
 // const { log } = require("node:console");
@@ -515,6 +517,10 @@
 //     console.log(number);
 // }
 
+
+
+// DOM MANIPULATION
+
 // console.log(document.getElementsByClassName('para'));
 //  console.log(document.getElementById('header').innerText);
 //  console.log(document.getElementById('btn').innerHTML);
@@ -565,6 +571,10 @@
 
 
 // using javascript to add class name to htlm and css
+
+
+// ASYNCHRONUS JAVASCRIPT
+
 
 
  
