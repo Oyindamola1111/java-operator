@@ -5,7 +5,7 @@
 // c=a+b;
 // console.log(a,b,c);
 
-const { callbackify } = require("util");
+// const { callbackify } = require("util");
 
 // const { log } = require("node:console");
 
@@ -574,6 +574,11 @@ const { callbackify } = require("util");
 
 
 // ASYNCHRONUS JAVASCRIPT
+
+
+console.log("https://jsonplaceholder.typicode.com/posts")
+fetch("https://jsonplaceholder.typicode.com/posts").then(res => res.json()).then(data => console.log(data))
+
 
 
 
