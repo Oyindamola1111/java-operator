@@ -580,7 +580,23 @@ console.log("https://jsonplaceholder.typicode.com/posts")
 fetch("https://jsonplaceholder.typicode.com/posts").then(res => res.json()).then(data => console.log(data))
 
 
+async function getPost() {
+    let a = await fetch("https://jsonplaceholder.typicode.com/posts");
+    let b = await a.json();
+    console.log(b);  
+}
 
+console.log('i am a boy')
+setTimeout(()=>{
+    console.log('how are you')
+},5000)
+console.log('i am fine')
+
+
+
+
+
+ 
 
  
  
